@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱游戏 — 关于我们</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f7f8fa;
+            color: #1e2a3a;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem 3rem;
+        }
+
+        /* hero */
+        .hero {
+            text-align: center;
+            padding: 2.8rem 0 2.2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #0f172a;
+        }
+
+        .hero .sub {
+            margin-top: 1rem;
+            font-size: 1.05rem;
+            color: #475569;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero .tagline {
+            display: inline-block;
+            margin-top: 0.8rem;
+            background: #eef2f6;
+            padding: 0.3rem 1.2rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            color: #1e293b;
+            letter-spacing: 0.01em;
+        }
+
+        /* section common */
+        section {
+            margin: 3.2rem 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.25rem;
+            color: #0f172a;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            margin-bottom: 1.1rem;
+            color: #2c3e50;
+        }
+
+        a {
+            color: #1a5c9e;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.15s;
+        }
+
+        a:hover {
+            border-bottom-color: #1a5c9e;
+        }
+
+        /* advantage cards */
+        .advantage-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.2rem;
+        }
+
+        .advantage-card {
+            background: #ffffff;
+            padding: 1.4rem 1.2rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e9edf2;
+            transition: box-shadow 0.2s;
+        }
+
+        .advantage-card:hover {
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+        }
+
+        .advantage-card h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.4rem;
+            color: #0b1a2e;
+        }
+
+        .advantage-card p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+            color: #3d4b5c;
+        }
+
+        /* faq summary */
+        .faq-item {
+            padding: 0.9rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            color: #0f172a;
+            margin-bottom: 0.3rem;
+        }
+
+        .faq-a {
+            color: #475569;
+            font-size: 0.95rem;
+        }
+
+        /* footer */
+        .footer-note {
+            margin-top: 3.5rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #dce1e9;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #5b6b7e;
+        }
+
+        .footer-note .link-sentence {
+            margin-bottom: 0.4rem;
+        }
+
+        .footer-note small {
+            display: block;
+            margin-top: 0.6rem;
+            font-size: 0.8rem;
+            color: #7d8b9e;
+        }
+
+        /* responsive */
+        @media (max-width: 600px) {
+            .page {
+                padding: 2.4rem 1.2rem 2.5rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero .sub {
+                font-size: 0.95rem;
+            }
+            .advantage-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            .advantage-card {
+                padding: 1.1rem 1rem;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="hero">
+            <h1>爱游戏</h1>
+            <p class="sub">一个关于游戏内容、体验与信任的安静角落。不喧哗，只呈现值得了解的信息。</p>
+            <span class="tagline">站点 · 介绍</span>
+        </header>
+
+        <section>
+            <h2>这个站点</h2>
+            <p><a href="https://aiyouxigroup.com">爱游戏</a> 是一个以游戏为线索的信息站点，尝试在碎片化的网络环境中，提供一些相对完整、克制的阅读内容。这里不追逐热点，也不制造焦虑，而是围绕游戏设计、作品背景、玩家视角与行业观察，整理出有依据的叙述。</p>
+            <p>站点的内容由几位长期关注游戏文化的作者共同维护，他们相信游戏不仅是娱乐产品，也承载着表达、叙事与情感。因此，每一篇文章都力求来源清晰、表述平稳，避免夸大其词或空泛断言。</p>
+        </section>
+
+        <section>
+            <h2>为什么值得留意</h2>
+            <div class="advantage-grid">
+                <div class="advantage-card">
+                    <h3>内容有出处</h3>
+                    <p>每篇介绍或评论都会标注信息来源，包括开发者访谈、文献、数据报告等，方便你进一步核实。</p>
+                </div>
+                <div class="advantage-card">
+                    <h3>视角温和</h3>
+                    <p>不煽动对立，不制造非此即彼的讨论。我们更愿意呈现不同观点，然后交给读者自行判断。</p>
+                </div>
+                <div class="advantage-card">
+                    <h3>结构清晰</h3>
+                    <p>文章按主题分类，每个页面专注于一个具体问题或作品，避免信息过载。你可以快速找到自己感兴趣的部分。</p>
+                </div>
+                <div class="advantage-card">
+                    <h3>持续更新</h3>
+                    <p>站点保持适度的更新节奏，每月会有数篇新内容。同时也会修订旧文，确保信息时效与准确性。</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>一些说明</h2>
+            <p>我们并非媒体机构，也不接受商业赞助或软文合作。站内所有内容均为独立撰写，不涉及利益交换。如果你发现任何错误或过时信息，欢迎通过站点页面底部的联系方式告知。</p>
+            <p>另一方面，<a href="https://aiyouxigroup.com">爱游戏</a> 不会收集用户的个人浏览数据，没有追踪脚本，也没有弹窗广告。我们希望在阅读体验上保持最低限度的干扰，让你专注于文字本身。</p>
+            <p>关于游戏推荐：这个站点不会给出「必玩」「神作」之类的绝对化表述。每一篇介绍都会说明作品的类型、风格以及可能的门槛，帮助你判断它是否适合自己。</p>
+        </section>
+
+        <section>
+            <h2>常见疑问</h2>
+            <div class="faq-item">
+                <div class="faq-q">网站多久更新一次？</div>
+                <div class="faq-a">通常每月 2–4 篇，但有时会略少或略多。你可以通过 RSS 订阅获得更新通知。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">可以转载站内文章吗？</div>
+                <div class="faq-a">非商业性转载我们一般同意，但需要注明作者与原始链接。商业使用请先联系站点。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">为什么没有评分系统？</div>
+                <div class="faq-a">分数容易简化判断，我们更希望用文字描述游戏的实际体验，由你自行衡量。</div>
+            </div>
+            <p style="margin-top:1.2rem; font-size:0.9rem; color:#556577;">更多内容可浏览 <a href="https://aiyouxigroup.com">爱游戏</a> 的完整文章页面。</p>
+        </section>
+
+        <footer class="footer-note">
+            <div class="link-sentence">如想进一步了解，可直接浏览 <a href="https://aiyouxigroup.com">爱游戏</a> 的主页。</div>
+            <small>© 爱游戏 · 内容独立，不做商业推荐</small>
+        </footer>
+    </div>
+</body>
+</html>
